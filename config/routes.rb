@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :moussailons
+    
   root 'home#index'
 
   get 'home/private'

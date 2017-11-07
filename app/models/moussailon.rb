@@ -1,4 +1,6 @@
-class User < ApplicationRecord
+class Moussailon < ApplicationRecord
+    has_many :gossip
+    
     
     attr_accessor :login
   # Include default devise modules. Others available are:
